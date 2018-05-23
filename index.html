@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+	<title>BonitoEyelashes</title>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="content">
+		<div id="golova" class="clearfix">
+			<div id="logotip">
+				<img src="img/logo%20bueno2.png" alt="logo">
+			</div>
+			<div id="menu">
+				<a href="#form">Ordinare BonitoEyelashes</a>
+			</div>
+		</div>
+		<div id="opisanie">
+			<h2>Significa el número 1 en Europa!</h2>
+			<img src="https://st.depositphotos.com/1441511/4328/i/450/depositphotos_43287419-stock-photo-woman-eye-with-long-eyelashes.jpg" alt="lashes" class="imageright">
+			<ul>
+				<li>Pestañas de lujo por 10 días</li>
+				<li>El resultado se guarda por 1 año</li>
+				<li>Composición 100% natural!</li>
+			</ul>
+			<br><br><br><br>
+			<h2>Por qué nosotros?</h2>
+			<img src="img/depositphotos_43287419-stock-photo-woman-eye-with-long-eyelashes.jpg" alt="" class="imageleft">
+			<ul class="menu-right">
+				<li>Medios efectivos</li>
+				<li>Entrega rápida!</li>
+				<li>Reembolso rápido</li>
+			</ul>
+			<h2>Resultado</h2>
+			<center><img src="img/lashes1.jpg" alt="lashes" width="500" class="result-pic"></center>
+			<center><img src="img/lashes1.jpg" alt="lashes" width="500" class="result-pic"></center>
+			<center><img src="img/lashes1.jpg" alt="lashes" width="500" class="result-pic"></center><br><hr><br><br>
+			<h2>Cómo hacer un pedido?</h2>
+			<ol>
+				<li>Complete el formulario de pedido</li>
+				<li>El operador se comunicará contigo</li>
+				<li>El paquete llegará en unos días</li>
+			</ol>
+			<center><img src="img/dasd.png" alt="product" width="200" class="product"></center>
+			
+			<form action="#" id="form">
+				<h3>Сomprar <br>BonitoEyelashes ahora!</h3>
+				<input type="text" placeholder="Nombre" required>
+				<input type="tel" placeholder="Número de teléfono" required>
+				<button type="submit">Comprar!</button>
+			</form>
+		</div>
+		<footer>
+		BonitoEyelashes LLC 2018
+		</footer>
+	</div>
+	<script>
+		var $page = $('html, body');
+		$('a[href*="#"]').click(function() {
+    		$page.animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+			}, 400);
+    		return false;
+		});
+	</script>
+</body>
+</html>
